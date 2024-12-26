@@ -1,5 +1,5 @@
 <!-- START .github/README_TEMPLATE/vscode-theme.template.md -->
-<h1 align="center">Vscode Theme React Pro</h1>
+<h1 align="center">vscode-theme-react-pro</h1>
 
 <p align="center">
   <b>React Pro Theme for Visual Studio Code</b><br />
@@ -200,4 +200,5 @@ Some contents like images, videos, documents and other multimedia files use your
 Thank you very much for visiting this repository, contributing amazing code and being part of this great community on github.
 
 If you want to support me you can visit my [Github Sponsors Profile](https://github.com/sponsors/luisfalconmx). Any support, no matter how small, motivates me to continue creating open source projects and share them with everyone :)
+
 <!-- END .github/README_TEMPLATE/vscode-theme.template.md -->
