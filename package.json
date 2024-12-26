@@ -1,44 +1,46 @@
 {
-  "name": "falcon-theme",
-  "description": "Dark Theme for Visual Studio Code designed specifically to work with React.js. This theme offers dark contrasts with colorful tones.",
-  "displayName": "Falcon Theme",
+  "name": "vscode-theme-react-pro",
+  "description": "React Pro Theme for Visual Studio Code",
+  "displayName": "React Pro Theme",
   "publisher": "luisfalconmx",
   "license": "MIT",
   "author": "luisfalconmx",
-  "version": "2.0.0",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.50.0"
   },
-  "homepage": "https://github.com/luisfalconmx/falcon-theme",
+  "scripts": {
+    "format": "prettier --write . --ignore-unknown"
+  },
+  "homepage": "https://github.com/luisfalconmx/vscode-theme-react-pro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luisfalconmx/falcon-theme.git"
+    "url": "https://github.com/luisfalconmx/vscode-theme-react-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/luisfalconmx/falcon-theme/issues"
+    "url": "https://github.com/luisfalconmx/vscode-theme-react-pro/issues"
   },
   "galleryBanner": {
-    "color": "#070C13",
+    "color": "#01020E",
     "theme": "dark"
   },
-  "icon": "images/luisfalconmx.png",
+  "icon": "images/vscode-theme-react-pro.png",
   "categories": [
     "Themes"
   ],
   "keywords": [
-    "falcon dark theme",
-    "falcon dark",
-    "falcon-theme",
-    "falcon theme",
-    "falcon",
-    "theme falcon",
+    "react pro dark theme",
+    "react pro dark",
+    "react-pro-theme",
+    "react pro theme",
+    "react pro",
+    "theme react pro",
     "blue",
     "dark",
     "theme",
     "vscode",
     "luisfalconmx",
-    "luis",
-    "luisfalconmx/falcon-theme",
+    "luisfalconmx/react-pro-theme",
     "react",
     "react theme",
     "dark theme",
@@ -61,30 +63,13 @@
   "contributes": {
     "themes": [
       {
-        "label": "Falcon - React Theme",
+        "label": "React Pro Theme",
         "uiTheme": "vs-dark",
-        "path": "./theme/react-theme.json"
-      },
-      {
-        "label": "Falcon - Vue Theme",
-        "uiTheme": "vs-dark",
-        "path": "./theme/vue-theme.json"
-      },
-      {
-        "label": "Falcon - Angular Theme",
-        "uiTheme": "vs-dark",
-        "path": "./theme/angular-theme.json"
-      },
-      {
-        "label": "Falcon - Astro Theme",
-        "uiTheme": "vs-dark",
-        "path": "./theme/astro-theme.json"
-      },
-      {
-        "label": "Falcon - JavaScript Theme",
-        "uiTheme": "vs-dark",
-        "path": "./theme/javascript-theme.json"
+        "path": "./theme/react-pro-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }
